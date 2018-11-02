@@ -2,6 +2,8 @@ import React, { PureComponent } from "react";
 import { withRouter } from "next/router";
 import Link from "next/link";
 
+import { withNamespaces } from "react-i18next";
+
 class NavBar extends PureComponent {
 	render() {
 		const { t, router } = this.props;
@@ -39,7 +41,7 @@ class NavBar extends PureComponent {
 					{routes.map(route => (
 						<Link href={`/${currentLanguage}/${route}`} key={route}>
 							<a>
-								{route || "home"}
+								{t("common:navigation.home")}
 								<br />
 							</a>
 						</Link>
@@ -53,4 +55,4 @@ class NavBar extends PureComponent {
 	}
 }
 
-export default withRouter(NavBar);
+export default withNamespaces(["common"])(withRouter(NavBar));

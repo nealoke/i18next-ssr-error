@@ -1,10 +1,5 @@
 {
 	"navigation": {
-		"home": "Home",
-		"menukaart": "Menu",
-		"takeaway": "Takeaway",
-		"sushi-workshops": "Sushi-workshops",
-		"sushi-talk": "Sushi-talk",
-		"contact": "Contact"
+		"home": "Home (in English)"
 	}
 }
