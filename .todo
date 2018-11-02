@@ -1,0 +1,29 @@
+General:
+	✔ Add redux @done (10/23/2018, 2:37:27 PM)
+	✔ Issue when navigating, can submit form in footer @done (11/1/2018, 2:07:53 PM)
+
+Pages:
+	✔ Home @done (10/24/2018, 3:20:25 PM)
+	✔ Menukaart @done (10/25/2018, 11:28:59 AM)
+	✔ Takeaway @done (10/25/2018, 12:51:41 PM)
+	✔ Sushi workshops @done (10/25/2018, 4:28:26 PM)
+	✔ Sushi Talk @done (10/30/2018, 11:50:11 AM)
+	✔ Sushi Talk - Individual page @done (10/30/2018, 11:50:11 AM)
+	✔ Contact @done (11/1/2018, 2:07:52 PM)
+
+Components:
+	✔ NavBar @done (10/23/2018, 12:36:12 PM)
+	✔ Footer @done (10/23/2018, 2:37:24 PM)
+	✔ Layout @done (10/25/2018, 12:12:59 PM)
+	☐ Popup
+
+Languages:
+	✔ Add correct routing based on Languages (nl/... , en/..., fr/...) @done (11/1/2018, 2:07:48 PM)
+	✔ Add react-i18next (https://github.com/i18next/react-i18next/tree/master/example/nextjs) @done (11/1/2018, 2:07:48 PM)
+	☐ Add correct redux error messages (_app.js)
+
+SEO:
+	☐ Add head tags
+	☐ Add favicons
+	☐ Add prefetch to links in NavBar
+
